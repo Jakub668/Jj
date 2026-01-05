@@ -1,6 +1,6 @@
 {
   "name": "Linux Cinnamon Desktop",
-  "image": "mcr.microsoft.com", 
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "installCinnamon": true,
@@ -11,6 +11,6 @@
     "codespaces": {
       "openPorts": [6080]
     }
-  },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y cinnamon-desktop-environment"
+  }
 }
+
