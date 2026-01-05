@@ -1,6 +1,6 @@
 {
   "name": "Linux Cinnamon Desktop",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "installCinnamon": true,
@@ -13,4 +13,3 @@
     }
   }
 }
-
